@@ -1,0 +1,33 @@
+"Sammanräknad förvärvsinkomst, medelinkomst för boende i Sverige hela året, tkr efter region, utbildningsnivå, kön, ålder, inkomstklass och år"
+
+"region","utbildningsnivå","kön","ålder","inkomstklass","2000","2001","2002","2003","2004","2005"
+"00 Riket","förgymnasial utbildning","män","20-29 år","totalt",123.3,130.7,129.6,129.9,128.1,130.1
+"00 Riket","förgymnasial utbildning","män","30-39 år","totalt",184.9,191.6,196.2,198.5,200.4,201.6
+"00 Riket","förgymnasial utbildning","män","40-49 år","totalt",207.0,214.4,221.1,225.0,229.5,235.5
+"00 Riket","förgymnasial utbildning","män","50-59 år","totalt",214.0,220.9,227.5,232.4,238.0,244.6
+"00 Riket","förgymnasial utbildning","män","60-64 år","totalt",196.5,204.4,214.9,223.4,232.6,241.6
+"00 Riket","förgymnasial utbildning","kvinnor","20-29 år","totalt",88.0,93.5,96.0,97.8,96.2,95.5
+"00 Riket","förgymnasial utbildning","kvinnor","30-39 år","totalt",128.8,134.0,137.8,140.2,139.8,138.7
+"00 Riket","förgymnasial utbildning","kvinnor","40-49 år","totalt",151.1,156.5,161.6,165.9,168.4,169.6
+"00 Riket","förgymnasial utbildning","kvinnor","50-59 år","totalt",158.0,163.3,168.8,175.7,179.8,182.5
+"00 Riket","förgymnasial utbildning","kvinnor","60-64 år","totalt",137.4,143.7,152.1,165.0,172.8,178.8
+"00 Riket","gymnasial utbildning","män","20-29 år","totalt",164.3,171.5,173.4,175.2,175.3,176.6
+"00 Riket","gymnasial utbildning","män","30-39 år","totalt",226.0,236.9,244.2,249.6,256.2,263.8
+"00 Riket","gymnasial utbildning","män","40-49 år","totalt",235.4,245.0,253.1,258.2,265.2,275.2
+"00 Riket","gymnasial utbildning","män","50-59 år","totalt",253.3,261.2,267.2,270.7,275.0,281.9
+"00 Riket","gymnasial utbildning","män","60-64 år","totalt",240.1,248.0,258.5,267.2,275.3,285.3
+"00 Riket","gymnasial utbildning","kvinnor","20-29 år","totalt",124.3,129.3,132.2,133.9,133.5,132.8
+"00 Riket","gymnasial utbildning","kvinnor","30-39 år","totalt",164.6,172.5,179.0,182.9,187.4,191.0
+"00 Riket","gymnasial utbildning","kvinnor","40-49 år","totalt",177.9,185.6,193.5,199.2,205.6,211.4
+"00 Riket","gymnasial utbildning","kvinnor","50-59 år","totalt",181.0,187.9,195.3,202.7,208.6,213.2
+"00 Riket","gymnasial utbildning","kvinnor","60-64 år","totalt",160.9,167.6,176.6,188.8,197.7,203.4
+"00 Riket","eftergymnasial utbildning","män","20-29 år","totalt",145.8,152.1,146.6,139.1,135.9,138.5
+"00 Riket","eftergymnasial utbildning","män","30-39 år","totalt",312.2,327.6,327.4,323.0,326.4,332.7
+"00 Riket","eftergymnasial utbildning","män","40-49 år","totalt",365.9,384.9,393.4,396.0,406.9,422.6
+"00 Riket","eftergymnasial utbildning","män","50-59 år","totalt",375.4,386.9,397.4,402.4,412.5,426.7
+"00 Riket","eftergymnasial utbildning","män","60-64 år","totalt",346.9,362.6,374.2,387.6,398.8,412.4
+"00 Riket","eftergymnasial utbildning","kvinnor","20-29 år","totalt",115.4,122.4,123.8,123.0,121.6,123.8
+"00 Riket","eftergymnasial utbildning","kvinnor","30-39 år","totalt",195.8,206.6,212.4,215.3,219.4,224.3
+"00 Riket","eftergymnasial utbildning","kvinnor","40-49 år","totalt",230.9,244.5,254.6,261.6,268.7,276.2
+"00 Riket","eftergymnasial utbildning","kvinnor","50-59 år","totalt",251.3,264.5,274.7,283.2,290.0,296.9
+"00 Riket","eftergymnasial utbildning","kvinnor","60-64 år","totalt",226.8,239.3,253.4,267.8,278.2,286.0

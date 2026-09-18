@@ -71,3 +71,130 @@
 2026-09-18 11:54:12 | INFO | income_report | Successfully calculated yearly income extremes
 2026-09-18 11:54:12 | INFO | income_report | Saved processed data to: C:\Users\veras\AppData\Local\Temp\pytest-of-veras\pytest-5\test_save_processed_data0\scb_income_cleaned.csv
 2026-09-18 11:54:12 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\AppData\Local\Temp\pytest-of-veras\pytest-5\test_save_processed_data0\yearly_income_extremes.csv
+2026-09-18 13:12:33 | INFO | income_report | Starting processing pipeline execution...
+2026-09-18 13:12:33 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_inkomst_raw_00_03.csv
+2026-09-18 13:12:33 | INFO | income_report | Successfully loaded raw data. Shape: (30, 9) (rows, columns)
+2026-09-18 13:12:33 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-18 13:12:33 | INFO | income_report | Pipeline completed. Output shape: (120, 5)
+2026-09-18 13:12:33 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-18 13:12:33 | INFO | income_report | Calculated average income over time per gender
+2026-09-18 13:12:33 | INFO | income_report | Calculated age-income profile
+2026-09-18 13:12:33 | INFO | income_report | Calculated average income over time per education level
+2026-09-18 13:12:33 | INFO | income_report | Saved processed data to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-18 13:12:33 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\yearly_income_extremes.csv
+2026-09-18 13:12:33 | INFO | income_report | Processing pipeline executed successfully
+2026-09-18 13:13:42 | INFO | income_report | Starting processing pipeline execution...
+2026-09-18 13:13:42 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_inkomst_raw_00_03.csv
+2026-09-18 13:13:42 | INFO | income_report | Successfully loaded raw data. Shape: (30, 9) (rows, columns)
+2026-09-18 13:13:42 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-18 13:13:42 | INFO | income_report | Pipeline completed. Output shape: (120, 5)
+2026-09-18 13:13:42 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-18 13:13:42 | INFO | income_report | Calculated average income over time per gender
+2026-09-18 13:13:42 | INFO | income_report | Calculated age-income profile
+2026-09-18 13:13:42 | INFO | income_report | Calculated average income over time per education level
+2026-09-18 13:13:42 | INFO | income_report | Saved processed data to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-18 13:13:42 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\yearly_income_extremes.csv
+2026-09-18 13:13:42 | INFO | income_report | Processing pipeline executed successfully
+2026-09-18 13:13:43 | INFO | income_report | Saved education trend plot to: output\figures\education_income_over_time.png
+2026-09-18 13:22:52 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_income_00_05_raw.csv
+2026-09-18 13:22:52 | INFO | income_report | Successfully loaded raw data. Shape: (30, 11) (rows, columns)
+2026-09-18 13:23:07 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_income_00_05_raw.csv
+2026-09-18 13:23:07 | INFO | income_report | Successfully loaded raw data. Shape: (30, 11) (rows, columns)
+2026-09-18 13:23:07 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-18 13:23:07 | INFO | income_report | Pipeline completed. Output shape: (180, 5)
+2026-09-18 13:23:22 | INFO | income_report | Starting processing pipeline execution...
+2026-09-18 13:23:22 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_income_00_05_raw.csv
+2026-09-18 13:23:22 | INFO | income_report | Successfully loaded raw data. Shape: (30, 11) (rows, columns)
+2026-09-18 13:23:22 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-18 13:23:22 | INFO | income_report | Pipeline completed. Output shape: (180, 5)
+2026-09-18 13:23:22 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-18 13:23:22 | INFO | income_report | Calculated average income over time per gender
+2026-09-18 13:23:22 | INFO | income_report | Calculated age-income profile
+2026-09-18 13:23:22 | INFO | income_report | Calculated average income over time per education level
+2026-09-18 13:23:22 | INFO | income_report | Saved processed data to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-18 13:23:22 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\yearly_income_extremes.csv
+2026-09-18 13:23:22 | INFO | income_report | Processing pipeline executed successfully
+2026-09-18 13:23:45 | INFO | income_report | Starting processing pipeline execution...
+2026-09-18 13:23:45 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_income_00_05_raw.csv
+2026-09-18 13:23:45 | INFO | income_report | Successfully loaded raw data. Shape: (30, 11) (rows, columns)
+2026-09-18 13:23:45 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-18 13:23:45 | INFO | income_report | Pipeline completed. Output shape: (180, 5)
+2026-09-18 13:23:45 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-18 13:23:45 | INFO | income_report | Calculated average income over time per gender
+2026-09-18 13:23:45 | INFO | income_report | Calculated age-income profile
+2026-09-18 13:23:45 | INFO | income_report | Calculated average income over time per education level
+2026-09-18 13:23:45 | INFO | income_report | Saved processed data to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-18 13:23:45 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\yearly_income_extremes.csv
+2026-09-18 13:23:45 | INFO | income_report | Processing pipeline executed successfully
+2026-09-18 13:23:45 | INFO | income_report | Saved education trend plot to: output\figures\education_income_over_time.png
+2026-09-18 20:59:41 | INFO | income_report | Starting processing pipeline execution...
+2026-09-18 20:59:41 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_income_00_05_raw.csv
+2026-09-18 20:59:42 | INFO | income_report | Successfully loaded raw data. Shape: (30, 11) (rows, columns)
+2026-09-18 20:59:42 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-18 20:59:42 | INFO | income_report | Pipeline completed. Output shape: (180, 5)
+2026-09-18 20:59:42 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-18 20:59:42 | INFO | income_report | Calculated average income over time per gender
+2026-09-18 20:59:42 | INFO | income_report | Calculated age-income profile
+2026-09-18 20:59:42 | INFO | income_report | Calculated average income over time per education level
+2026-09-18 20:59:42 | INFO | income_report | Saved processed data to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-18 20:59:42 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\yearly_income_extremes.csv
+2026-09-18 20:59:42 | INFO | income_report | Processing pipeline executed successfully
+2026-09-18 20:59:42 | INFO | income_report | Saved yearly extremes plot to: output\figures\yearly_income_extremes.png
+2026-09-18 21:06:00 | INFO | income_report | Starting processing pipeline execution...
+2026-09-18 21:06:00 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_income_00_05_raw.csv
+2026-09-18 21:06:00 | INFO | income_report | Successfully loaded raw data. Shape: (30, 11) (rows, columns)
+2026-09-18 21:06:00 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-18 21:06:00 | INFO | income_report | Pipeline completed. Output shape: (180, 5)
+2026-09-18 21:06:00 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-18 21:06:00 | INFO | income_report | Calculated average income over time per gender
+2026-09-18 21:06:00 | INFO | income_report | Calculated age-income profile
+2026-09-18 21:06:00 | INFO | income_report | Calculated average income over time per education level
+2026-09-18 21:06:00 | INFO | income_report | Saved processed data to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-18 21:06:00 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\yearly_income_extremes.csv
+2026-09-18 21:06:00 | INFO | income_report | Processing pipeline executed successfully
+2026-09-18 21:06:01 | INFO | income_report | Saved gender trend plot to: output\figures\gender_income_over_time.png
+2026-09-18 21:14:11 | INFO | income_report | Starting processing pipeline execution...
+2026-09-18 21:14:11 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_income_00_05_raw.csv
+2026-09-18 21:14:11 | INFO | income_report | Successfully loaded raw data. Shape: (30, 11) (rows, columns)
+2026-09-18 21:14:11 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-18 21:14:11 | INFO | income_report | Pipeline completed. Output shape: (180, 5)
+2026-09-18 21:14:11 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-18 21:14:11 | INFO | income_report | Calculated average income over time per gender
+2026-09-18 21:14:11 | INFO | income_report | Calculated age-income profile
+2026-09-18 21:14:11 | INFO | income_report | Calculated average income over time per education level
+2026-09-18 21:14:11 | INFO | income_report | Saved processed data to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-18 21:14:11 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\yearly_income_extremes.csv
+2026-09-18 21:14:11 | INFO | income_report | Processing pipeline executed successfully
+2026-09-18 21:14:11 | INFO | income_report | Saved age profile bar plot to: output\figures\age_income_profile_bar.png
+2026-09-18 21:42:52 | INFO | income_report | Starting processing pipeline execution...
+2026-09-18 21:42:52 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_income_00_05_raw.csv
+2026-09-18 21:42:52 | INFO | income_report | Successfully loaded raw data. Shape: (30, 11) (rows, columns)
+2026-09-18 21:42:52 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-18 21:42:52 | INFO | income_report | Pipeline completed. Output shape: (180, 5)
+2026-09-18 21:42:52 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-18 21:42:52 | INFO | income_report | Calculated average income over time per gender
+2026-09-18 21:42:52 | INFO | income_report | Calculated age-income profile
+2026-09-18 21:42:52 | INFO | income_report | Calculated average income over time per education level
+2026-09-18 21:42:52 | INFO | income_report | Saved processed data to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-18 21:42:52 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\yearly_income_extremes.csv
+2026-09-18 21:42:52 | INFO | income_report | Processing pipeline executed successfully
+2026-09-18 21:42:53 | INFO | income_report | Saved age profile bar plot to: output\figures\age_income_profile_bar.png
+2026-09-18 22:13:00 | INFO | income_report | Starting visualization process...
+2026-09-18 22:13:00 | INFO | income_report | Starting processing pipeline execution...
+2026-09-18 22:13:00 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_income_00_05_raw.csv
+2026-09-18 22:13:00 | INFO | income_report | Successfully loaded raw data. Shape: (30, 11) (rows, columns)
+2026-09-18 22:13:00 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-18 22:13:00 | INFO | income_report | Pipeline completed. Output shape: (180, 5)
+2026-09-18 22:13:00 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-18 22:13:00 | INFO | income_report | Calculated average income over time per gender
+2026-09-18 22:13:00 | INFO | income_report | Calculated age-income profile
+2026-09-18 22:13:00 | INFO | income_report | Calculated average income over time per education level
+2026-09-18 22:13:00 | INFO | income_report | Saved processed data to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-18 22:13:00 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\yearly_income_extremes.csv
+2026-09-18 22:13:00 | INFO | income_report | Processing pipeline executed successfully
+2026-09-18 22:13:01 | INFO | income_report | Saved education trend plot to: output\figures\education_income_over_time.png
+2026-09-18 22:13:01 | INFO | income_report | Saved yearly extremes plot to: output\figures\yearly_income_extremes.png
+2026-09-18 22:13:01 | INFO | income_report | Saved gender trend plot to: output\figures\gender_income_over_time.png
+2026-09-18 22:13:02 | INFO | income_report | Saved age profile bar plot to: output\figures\age_income_profile_bar.png
+2026-09-18 22:13:02 | INFO | income_report | Saved age profile line plot to: output\figures\age_income_profile_line.png
+2026-09-18 22:13:02 | INFO | income_report | All visualization plots generated successfully

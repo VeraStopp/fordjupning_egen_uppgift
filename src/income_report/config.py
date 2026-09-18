@@ -19,7 +19,7 @@ def get_raw_data_path() -> Path:
 RAW_DATA_PATH = get_raw_data_path()
 PROCESSED_DATA_PATH = DATA_DIR / "processed" / "scb_income_cleaned.csv"
 
-OUTPUT_DIR = BASE_DIR / "output"
+OUTPUT_DIR = Path("output")
 FIGURES_DIR = OUTPUT_DIR / "figures"
 
 CSV_ENCODING = "latin1"
