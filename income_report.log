@@ -1,0 +1,73 @@
+2026-09-17 09:23:48 | INFO | income_report | --- CONFIGURATION TEST ---
+2026-09-17 09:23:48 | INFO | income_report | Base Directory: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift
+2026-09-17 09:23:48 | INFO | income_report | Raw Data Path found: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_inkomst_00_03.csv
+2026-09-17 09:23:48 | INFO | income_report | Log File Path: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\income_report.log
+2026-09-17 09:24:17 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_inkomst_00_03.csv
+2026-09-17 09:24:17 | INFO | income_report | Successfully loaded raw data. Shape: (630, 9) (rows, columns)
+2026-09-17 14:59:11 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_inkomst_00_03.csv
+2026-09-17 14:59:11 | INFO | income_report | Successfully loaded raw data. Shape: (630, 9) (rows, columns)
+2026-09-17 14:59:11 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-17 14:59:11 | ERROR | income_report | Missing columns in sanitized data: ['yearinkomst_tkr']
+2026-09-17 15:01:24 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_inkomst_00_03.csv
+2026-09-17 15:01:24 | INFO | income_report | Successfully loaded raw data. Shape: (630, 9) (rows, columns)
+2026-09-17 15:01:24 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-17 15:01:51 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_inkomst_00_03.csv
+2026-09-17 15:01:51 | INFO | income_report | Successfully loaded raw data. Shape: (630, 9) (rows, columns)
+2026-09-17 15:01:51 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-17 15:01:51 | INFO | income_report | Pipeline completed. Output shape: (2520, 6)
+2026-09-17 16:01:38 | INFO | income_report | Starting processing pipeline execution...
+2026-09-17 16:01:38 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_inkomst_00_03.csv
+2026-09-17 16:01:38 | INFO | income_report | Successfully loaded raw data. Shape: (630, 9) (rows, columns)
+2026-09-17 16:01:38 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-17 16:01:38 | INFO | income_report | Pipeline completed. Output shape: (2520, 6)
+2026-09-17 16:01:38 | INFO | income_report | Successfully saved process data to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-17 16:01:38 | INFO | income_report | Processing pipeline executed successfully
+2026-09-18 09:55:19 | INFO | income_report | Starting processing pipeline execution...
+2026-09-18 09:55:19 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_inkomst_raw_00_03.csv
+2026-09-18 09:55:19 | INFO | income_report | Successfully loaded raw data. Shape: (30, 9) (rows, columns)
+2026-09-18 09:55:19 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-18 09:55:19 | INFO | income_report | Pipeline completed. Output shape: (120, 5)
+2026-09-18 09:55:19 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-18 09:55:19 | INFO | income_report | Calculated average income over time per gender
+2026-09-18 09:55:19 | INFO | income_report | Calculated age-income profile
+2026-09-18 09:55:19 | INFO | income_report | Calculated average income over time per education level
+2026-09-18 09:55:19 | INFO | income_report | Saved processed data to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-18 09:55:19 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\yearly_income_extremes.csv
+2026-09-18 09:55:19 | INFO | income_report | Processing pipeline executed successfully
+2026-09-18 11:07:15 | ERROR | income_report | No valid 4-digit year columns found in raw data
+2026-09-18 11:14:32 | ERROR | income_report | No valid 4-digit year columns found in raw data
+2026-09-18 11:14:32 | ERROR | income_report | Failed to cast data types: could not convert string to float: '250,5'
+2026-09-18 11:19:37 | ERROR | income_report | No valid 4-digit year columns found in raw data
+2026-09-18 11:23:55 | ERROR | income_report | No valid 4-digit year columns found in raw data
+2026-09-18 11:23:55 | WARNING | income_report | Dropped 1 rows due to missing metadata values
+2026-09-18 11:23:55 | WARNING | income_report | Dropped 1 rows due to missing income data
+2026-09-18 11:24:35 | ERROR | income_report | No valid 4-digit year columns found in raw data
+2026-09-18 11:24:35 | WARNING | income_report | Dropped 1 rows due to missing metadata values
+2026-09-18 11:24:35 | WARNING | income_report | Dropped 1 rows due to missing income data
+2026-09-18 11:26:41 | ERROR | income_report | No valid 4-digit year columns found in raw data
+2026-09-18 11:26:41 | WARNING | income_report | Dropped 1 rows due to missing metadata values
+2026-09-18 11:26:41 | WARNING | income_report | Dropped 1 rows due to missing income data
+2026-09-18 11:26:41 | ERROR | income_report | Missing columns in sanitized data: ['ålder', 'year', 'inkomst_tkr']
+2026-09-18 11:29:00 | ERROR | income_report | No valid 4-digit year columns found in raw data
+2026-09-18 11:29:00 | WARNING | income_report | Dropped 1 rows due to missing metadata values
+2026-09-18 11:29:00 | WARNING | income_report | Dropped 1 rows due to missing income data
+2026-09-18 11:29:00 | ERROR | income_report | Missing columns in sanitized data: ['ålder', 'year', 'inkomst_tkr']
+2026-09-18 11:29:00 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-18 11:29:00 | INFO | income_report | Pipeline completed. Output shape: (4, 5)
+2026-09-18 11:45:18 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-18 11:47:00 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-18 11:47:00 | INFO | income_report | Calculated average income over time per gender
+2026-09-18 11:48:40 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-18 11:48:40 | INFO | income_report | Calculated average income over time per gender
+2026-09-18 11:48:40 | INFO | income_report | Calculated age-income profile
+2026-09-18 11:50:33 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-18 11:50:33 | INFO | income_report | Calculated average income over time per gender
+2026-09-18 11:50:33 | INFO | income_report | Calculated age-income profile
+2026-09-18 11:50:33 | INFO | income_report | Calculated average income over time per education level
+2026-09-18 11:54:12 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-18 11:54:12 | INFO | income_report | Calculated average income over time per gender
+2026-09-18 11:54:12 | INFO | income_report | Calculated age-income profile
+2026-09-18 11:54:12 | INFO | income_report | Calculated average income over time per education level
+2026-09-18 11:54:12 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-18 11:54:12 | INFO | income_report | Saved processed data to: C:\Users\veras\AppData\Local\Temp\pytest-of-veras\pytest-5\test_save_processed_data0\scb_income_cleaned.csv
+2026-09-18 11:54:12 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\AppData\Local\Temp\pytest-of-veras\pytest-5\test_save_processed_data0\yearly_income_extremes.csv

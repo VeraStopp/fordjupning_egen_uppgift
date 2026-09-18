@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/income_report/__init__.py
+src/income_report/__main__.py
+src/income_report/config.py
+src/income_report/loading.py
+src/income_report/processing.py
+src/income_report/reporting.py
+src/income_report/validation.py
+src/income_report/visualization.py
+src/income_report.egg-info/PKG-INFO
+src/income_report.egg-info/SOURCES.txt
+src/income_report.egg-info/dependency_links.txt
+src/income_report.egg-info/requires.txt
+src/income_report.egg-info/top_level.txt
