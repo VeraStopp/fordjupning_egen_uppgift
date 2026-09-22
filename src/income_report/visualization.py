@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 
-from income_report.config import logger, FIGURES_DIR
+from income_report.config import logger, FIGURES_DIR, PROCESSED_DATA_PATH
 from income_report.processing import run_processing_pipeline
 
 sns.set_theme(style="whitegrid")
@@ -84,6 +84,32 @@ def plot_gender_trends(df: pd.DataFrame) -> None:
     plt.close()
     logger.info(f"Saved gender trend plot to: {output_path}")
 
+def plot_gender_gap_percentage(df: pd.DataFrame) -> None:
+    """Generates and saves a line plot of the percentage gender income gap over time"""
+    plt.figure(figsize=(10, 6))
+    
+    sns.lineplot(
+        data=df,
+        x="year",
+        y="gap_pct",
+        marker="o",
+        linewidth=2.5,
+        color="red"
+    )
+    
+    plt.title("Procentuell skillnad i inkomst mellan män och kvinnor över tid", fontsize=14, pad=15)
+    plt.xlabel("År", fontsize=12)
+    plt.ylabel("Skilland i inskomt (%)", fontsize=12)
+    plt.ylim(0, 50)
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+
+    output_path = FIGURES_DIR / "gender_gap_percentage.png"
+    plt.savefig(output_path, dpi=300)
+    plt.close()
+    logger.info(f"Saved gender gap percentage line plot to: {output_path}")
+        
+
 def plot_age_profile_bar(df: pd.DataFrame) -> None:
     """Generates a bar chart showing the age-income profile"""
     plt.figure(figsize=(10, 6))
@@ -141,6 +167,7 @@ def generate_all_plots() -> None:
     plot_education_trends(results["education_over_time"])
     plot_yearly_extremes(results["yearly_extremes"])
     plot_gender_trends(results["gender_over_time"])
+    plot_gender_gap_percentage(results["gender_gap"])
     plot_age_profile_bar(results["age_profile"])
     plot_age_profile_line(results["age_profile"])
 

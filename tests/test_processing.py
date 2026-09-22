@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from pathlib import Path
 import pytest
-from income_report.processing import (
+from income_report import (
     get_age_income_profile,
     get_education_income_over_time,
     get_gender_income_over_time,

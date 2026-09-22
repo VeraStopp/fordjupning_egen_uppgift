@@ -39,6 +39,26 @@ def get_gender_income_over_time(df: pd.DataFrame) -> pd.DataFrame:
     logger.info("Calculated average income over time per gender")
     return gender_df
 
+def get_gender_gap_data(df: pd.DataFrame) -> pd.DataFrame:
+    """Calculates average income by gender and percentage gap per year"""
+    gender_yearly = (
+        df.groupby(["year", "kön"])["inkomst_tkr"]
+        .mean()
+        .unstack(level="kön")
+        .reset_index()
+    )
+
+    if "män" in gender_yearly.columns and "kvinnor" in gender_yearly.columns:
+        gender_yearly["gap_pct"] = (
+            (gender_yearly["män"] - gender_yearly["kvinnor"]) / gender_yearly["män"]
+        ) * 100
+        logger.info("Successfully calculated gender income gap percentage")
+    else:
+        logger.warning("Columns 'män' or 'kvinnor' are missing for gap calculation")
+
+    return gender_yearly
+
+
 def get_age_income_profile(df: pd.DataFrame) -> pd.DataFrame:
     """Aggregates average income per age group across the dataset to identify peak earning age"""
     age_df = (
@@ -73,8 +93,12 @@ def save_processed_data(results: dict[str, pd.DataFrame]) -> None:
     extreme_path = PROCESSED_DATA_PATH.parent / "yearly_income_extremes.csv"
     results["yearly_extremes"].to_csv(extreme_path, index=False, encoding="utf-8")
 
+    gender_gap_path = PROCESSED_DATA_PATH.parent / "gender_gap_summary.csv"
+    results["gender_gap"].to_csv(gender_gap_path, index=False, encoding="utf-8")
+
     logger.info(f"Saved processed data to: {PROCESSED_DATA_PATH}")
     logger.info(f"Saved yearly extremes table to: {extreme_path}")
+    logger.info(f"Saved gender gap table to: {gender_gap_path}")
 
 def run_processing_pipeline() -> pd. DataFrame:
     """Executes the full end-to-end data processing pipeline"""
@@ -88,6 +112,7 @@ def run_processing_pipeline() -> pd. DataFrame:
         "cleaned_data": cleaned_df,
         "yearly_extremes": get_yearly_extreme_groups(cleaned_df),
         "gender_over_time": get_gender_income_over_time(cleaned_df),
+        "gender_gap": get_gender_gap_data(cleaned_df),
         "age_profile": get_age_income_profile(cleaned_df),
         "education_over_time": get_education_income_over_time(cleaned_df),
 
@@ -107,3 +132,6 @@ if __name__ == "__main__":
 
     print("\n--- YEARLY EXTREMES HEAD ---")
     print(results["yearly_extremes"].head())
+
+    print("\n--- GENDER GAP HEAD ---")
+    print(results["gender_gap"].head())

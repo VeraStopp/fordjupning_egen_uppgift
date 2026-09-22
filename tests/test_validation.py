@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import pytest
-from income_report.validation import (
+from income_report import (
     clean_data_types,
     transform_to_long_format,
     validate_and_sanitize_raw_data,

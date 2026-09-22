@@ -198,3 +198,343 @@
 2026-09-18 22:13:02 | INFO | income_report | Saved age profile bar plot to: output\figures\age_income_profile_bar.png
 2026-09-18 22:13:02 | INFO | income_report | Saved age profile line plot to: output\figures\age_income_profile_line.png
 2026-09-18 22:13:02 | INFO | income_report | All visualization plots generated successfully
+2026-09-19 10:10:30 | INFO | income_report | Starting full reporting pipeline execution...
+2026-09-19 10:10:30 | INFO | income_report | Starting visualization process...
+2026-09-19 10:10:30 | INFO | income_report | Starting processing pipeline execution...
+2026-09-19 10:10:30 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_income_00_05_raw.csv
+2026-09-19 10:10:30 | INFO | income_report | Successfully loaded raw data. Shape: (30, 11) (rows, columns)
+2026-09-19 10:10:30 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-19 10:10:30 | INFO | income_report | Pipeline completed. Output shape: (180, 5)
+2026-09-19 10:10:30 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-19 10:10:30 | INFO | income_report | Calculated average income over time per gender
+2026-09-19 10:10:30 | INFO | income_report | Calculated age-income profile
+2026-09-19 10:10:30 | INFO | income_report | Calculated average income over time per education level
+2026-09-19 10:10:31 | INFO | income_report | Saved processed data to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-19 10:10:31 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\yearly_income_extremes.csv
+2026-09-19 10:10:31 | INFO | income_report | Processing pipeline executed successfully
+2026-09-19 10:10:31 | INFO | income_report | Saved education trend plot to: output\figures\education_income_over_time.png
+2026-09-19 10:10:32 | INFO | income_report | Saved yearly extremes plot to: output\figures\yearly_income_extremes.png
+2026-09-19 10:10:32 | INFO | income_report | Saved gender trend plot to: output\figures\gender_income_over_time.png
+2026-09-19 10:10:32 | INFO | income_report | Saved age profile bar plot to: output\figures\age_income_profile_bar.png
+2026-09-19 10:10:32 | INFO | income_report | Saved age profile line plot to: output\figures\age_income_profile_line.png
+2026-09-19 10:10:32 | INFO | income_report | All visualization plots generated successfully
+2026-09-19 10:10:32 | INFO | income_report | Rendering Quarto report (report.qmd) to PDF...
+2026-09-19 10:10:32 | ERROR | income_report | Quarto CLI is not installed or not found in PATH
+2026-09-19 12:18:48 | INFO | income_report | Starting full reporting pipeline execution...
+2026-09-19 12:18:48 | INFO | income_report | Starting visualization process...
+2026-09-19 12:18:48 | INFO | income_report | Starting processing pipeline execution...
+2026-09-19 12:18:48 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_income_00_05_raw.csv
+2026-09-19 12:18:48 | INFO | income_report | Successfully loaded raw data. Shape: (30, 11) (rows, columns)
+2026-09-19 12:18:48 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-19 12:18:48 | INFO | income_report | Pipeline completed. Output shape: (180, 5)
+2026-09-19 12:18:48 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-19 12:18:48 | INFO | income_report | Calculated average income over time per gender
+2026-09-19 12:18:48 | INFO | income_report | Calculated age-income profile
+2026-09-19 12:18:48 | INFO | income_report | Calculated average income over time per education level
+2026-09-19 12:18:48 | INFO | income_report | Saved processed data to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-19 12:18:48 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\yearly_income_extremes.csv
+2026-09-19 12:18:48 | INFO | income_report | Processing pipeline executed successfully
+2026-09-19 12:18:49 | INFO | income_report | Saved education trend plot to: output\figures\education_income_over_time.png
+2026-09-19 12:18:50 | INFO | income_report | Saved yearly extremes plot to: output\figures\yearly_income_extremes.png
+2026-09-19 12:18:50 | INFO | income_report | Saved gender trend plot to: output\figures\gender_income_over_time.png
+2026-09-19 12:18:50 | INFO | income_report | Saved age profile bar plot to: output\figures\age_income_profile_bar.png
+2026-09-19 12:18:50 | INFO | income_report | Saved age profile line plot to: output\figures\age_income_profile_line.png
+2026-09-19 12:18:50 | INFO | income_report | All visualization plots generated successfully
+2026-09-19 12:18:50 | INFO | income_report | Rendering Quarto report (report.qmd) to PDF...
+2026-09-19 12:18:55 | ERROR | income_report | Failed to render Quarto report: Command '['quarto', 'render', 'report.qmd', '--to', 'pdf']' returned non-zero exit status 1.
+2026-09-19 12:25:24 | INFO | income_report | Starting full reporting pipeline execution...
+2026-09-19 12:25:24 | INFO | income_report | Starting visualization process...
+2026-09-19 12:25:24 | INFO | income_report | Starting processing pipeline execution...
+2026-09-19 12:25:24 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_income_00_05_raw.csv
+2026-09-19 12:25:24 | INFO | income_report | Successfully loaded raw data. Shape: (30, 11) (rows, columns)
+2026-09-19 12:25:24 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-19 12:25:24 | INFO | income_report | Pipeline completed. Output shape: (180, 5)
+2026-09-19 12:25:24 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-19 12:25:24 | INFO | income_report | Calculated average income over time per gender
+2026-09-19 12:25:24 | INFO | income_report | Calculated age-income profile
+2026-09-19 12:25:24 | INFO | income_report | Calculated average income over time per education level
+2026-09-19 12:25:24 | INFO | income_report | Saved processed data to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-19 12:25:24 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\yearly_income_extremes.csv
+2026-09-19 12:25:24 | INFO | income_report | Processing pipeline executed successfully
+2026-09-19 12:25:24 | INFO | income_report | Saved education trend plot to: output\figures\education_income_over_time.png
+2026-09-19 12:25:25 | INFO | income_report | Saved yearly extremes plot to: output\figures\yearly_income_extremes.png
+2026-09-19 12:25:25 | INFO | income_report | Saved gender trend plot to: output\figures\gender_income_over_time.png
+2026-09-19 12:25:25 | INFO | income_report | Saved age profile bar plot to: output\figures\age_income_profile_bar.png
+2026-09-19 12:25:25 | INFO | income_report | Saved age profile line plot to: output\figures\age_income_profile_line.png
+2026-09-19 12:25:25 | INFO | income_report | All visualization plots generated successfully
+2026-09-19 12:25:25 | INFO | income_report | Rendering Quarto report (report.qmd) to PDF...
+2026-09-19 12:25:58 | ERROR | income_report | Failed to render Quarto report: Command '['quarto', 'render', 'report.qmd', '--to', 'pdf']' returned non-zero exit status 1.
+2026-09-19 12:31:00 | INFO | income_report | Starting full reporting pipeline execution...
+2026-09-19 12:31:00 | INFO | income_report | Starting visualization process...
+2026-09-19 12:31:00 | INFO | income_report | Starting processing pipeline execution...
+2026-09-19 12:31:00 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_income_00_05_raw.csv
+2026-09-19 12:31:00 | INFO | income_report | Successfully loaded raw data. Shape: (30, 11) (rows, columns)
+2026-09-19 12:31:00 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-19 12:31:00 | INFO | income_report | Pipeline completed. Output shape: (180, 5)
+2026-09-19 12:31:00 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-19 12:31:00 | INFO | income_report | Calculated average income over time per gender
+2026-09-19 12:31:00 | INFO | income_report | Calculated age-income profile
+2026-09-19 12:31:00 | INFO | income_report | Calculated average income over time per education level
+2026-09-19 12:31:00 | INFO | income_report | Saved processed data to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-19 12:31:00 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\yearly_income_extremes.csv
+2026-09-19 12:31:00 | INFO | income_report | Processing pipeline executed successfully
+2026-09-19 12:31:00 | INFO | income_report | Saved education trend plot to: output\figures\education_income_over_time.png
+2026-09-19 12:31:00 | INFO | income_report | Saved yearly extremes plot to: output\figures\yearly_income_extremes.png
+2026-09-19 12:31:01 | INFO | income_report | Saved gender trend plot to: output\figures\gender_income_over_time.png
+2026-09-19 12:31:01 | INFO | income_report | Saved age profile bar plot to: output\figures\age_income_profile_bar.png
+2026-09-19 12:31:01 | INFO | income_report | Saved age profile line plot to: output\figures\age_income_profile_line.png
+2026-09-19 12:31:01 | INFO | income_report | All visualization plots generated successfully
+2026-09-19 12:31:01 | INFO | income_report | Rendering Quarto report (report.qmd) to PDF...
+2026-09-19 12:31:17 | INFO | income_report | Quarto report rendered successfully!
+2026-09-20 08:38:18 | INFO | income_report | Starting processing pipeline execution...
+2026-09-20 08:38:18 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_income_00_05_raw.csv
+2026-09-20 08:38:18 | INFO | income_report | Successfully loaded raw data. Shape: (30, 11) (rows, columns)
+2026-09-20 08:38:18 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-20 08:38:19 | INFO | income_report | Pipeline completed. Output shape: (180, 5)
+2026-09-20 08:38:19 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-20 08:38:19 | INFO | income_report | Calculated average income over time per gender
+2026-09-20 08:38:19 | INFO | income_report | Successfully calculated gender income gap percentage
+2026-09-20 08:38:19 | INFO | income_report | Calculated age-income profile
+2026-09-20 08:38:19 | INFO | income_report | Calculated average income over time per education level
+2026-09-20 08:38:19 | INFO | income_report | Saved processed data to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-20 08:38:19 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\yearly_income_extremes.csv
+2026-09-20 08:38:19 | INFO | income_report | Saved gender gap table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\gender_gap_summary.csv
+2026-09-20 08:38:19 | INFO | income_report | Processing pipeline executed successfully
+2026-09-21 08:25:11 | INFO | income_report | Starting visualization process...
+2026-09-21 08:25:11 | INFO | income_report | Starting processing pipeline execution...
+2026-09-21 08:25:11 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_income_00_05_raw.csv
+2026-09-21 08:25:11 | INFO | income_report | Successfully loaded raw data. Shape: (30, 11) (rows, columns)
+2026-09-21 08:25:11 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-21 08:25:11 | INFO | income_report | Pipeline completed. Output shape: (180, 5)
+2026-09-21 08:25:11 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-21 08:25:11 | INFO | income_report | Calculated average income over time per gender
+2026-09-21 08:25:11 | INFO | income_report | Successfully calculated gender income gap percentage
+2026-09-21 08:25:11 | INFO | income_report | Calculated age-income profile
+2026-09-21 08:25:11 | INFO | income_report | Calculated average income over time per education level
+2026-09-21 08:25:11 | INFO | income_report | Saved processed data to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-21 08:25:11 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\yearly_income_extremes.csv
+2026-09-21 08:25:11 | INFO | income_report | Saved gender gap table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\gender_gap_summary.csv
+2026-09-21 08:25:11 | INFO | income_report | Processing pipeline executed successfully
+2026-09-21 08:25:13 | INFO | income_report | Saved education trend plot to: output\figures\education_income_over_time.png
+2026-09-21 08:25:13 | INFO | income_report | Saved yearly extremes plot to: output\figures\yearly_income_extremes.png
+2026-09-21 08:25:13 | INFO | income_report | Saved gender trend plot to: output\figures\gender_income_over_time.png
+2026-09-21 08:25:14 | INFO | income_report | Saved gender gap percentage line plot to: output\figures\gender_gap_percentage.png
+2026-09-21 08:25:14 | INFO | income_report | Saved age profile bar plot to: output\figures\age_income_profile_bar.png
+2026-09-21 08:25:14 | INFO | income_report | Saved age profile line plot to: output\figures\age_income_profile_line.png
+2026-09-21 08:25:14 | INFO | income_report | All visualization plots generated successfully
+2026-09-21 08:27:07 | INFO | income_report | Starting visualization process...
+2026-09-21 08:27:07 | INFO | income_report | Starting processing pipeline execution...
+2026-09-21 08:27:07 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_income_00_05_raw.csv
+2026-09-21 08:27:07 | INFO | income_report | Successfully loaded raw data. Shape: (30, 11) (rows, columns)
+2026-09-21 08:27:07 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-21 08:27:07 | INFO | income_report | Pipeline completed. Output shape: (180, 5)
+2026-09-21 08:27:07 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-21 08:27:07 | INFO | income_report | Calculated average income over time per gender
+2026-09-21 08:27:07 | INFO | income_report | Successfully calculated gender income gap percentage
+2026-09-21 08:27:07 | INFO | income_report | Calculated age-income profile
+2026-09-21 08:27:07 | INFO | income_report | Calculated average income over time per education level
+2026-09-21 08:27:07 | INFO | income_report | Saved processed data to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-21 08:27:07 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\yearly_income_extremes.csv
+2026-09-21 08:27:07 | INFO | income_report | Saved gender gap table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\gender_gap_summary.csv
+2026-09-21 08:27:07 | INFO | income_report | Processing pipeline executed successfully
+2026-09-21 08:27:07 | INFO | income_report | Saved education trend plot to: output\figures\education_income_over_time.png
+2026-09-21 08:27:08 | INFO | income_report | Saved yearly extremes plot to: output\figures\yearly_income_extremes.png
+2026-09-21 08:27:08 | INFO | income_report | Saved gender trend plot to: output\figures\gender_income_over_time.png
+2026-09-21 08:27:08 | INFO | income_report | Saved gender gap percentage line plot to: output\figures\gender_gap_percentage.png
+2026-09-21 08:27:09 | INFO | income_report | Saved age profile bar plot to: output\figures\age_income_profile_bar.png
+2026-09-21 08:27:09 | INFO | income_report | Saved age profile line plot to: output\figures\age_income_profile_line.png
+2026-09-21 08:27:09 | INFO | income_report | All visualization plots generated successfully
+2026-09-21 08:29:01 | INFO | income_report | Starting visualization process...
+2026-09-21 08:29:01 | INFO | income_report | Starting processing pipeline execution...
+2026-09-21 08:29:01 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_income_00_05_raw.csv
+2026-09-21 08:29:01 | INFO | income_report | Successfully loaded raw data. Shape: (30, 11) (rows, columns)
+2026-09-21 08:29:01 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-21 08:29:01 | INFO | income_report | Pipeline completed. Output shape: (180, 5)
+2026-09-21 08:29:01 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-21 08:29:01 | INFO | income_report | Calculated average income over time per gender
+2026-09-21 08:29:01 | INFO | income_report | Successfully calculated gender income gap percentage
+2026-09-21 08:29:01 | INFO | income_report | Calculated age-income profile
+2026-09-21 08:29:01 | INFO | income_report | Calculated average income over time per education level
+2026-09-21 08:29:01 | INFO | income_report | Saved processed data to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-21 08:29:01 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\yearly_income_extremes.csv
+2026-09-21 08:29:01 | INFO | income_report | Saved gender gap table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\gender_gap_summary.csv
+2026-09-21 08:29:01 | INFO | income_report | Processing pipeline executed successfully
+2026-09-21 08:29:02 | INFO | income_report | Saved education trend plot to: output\figures\education_income_over_time.png
+2026-09-21 08:29:02 | INFO | income_report | Saved yearly extremes plot to: output\figures\yearly_income_extremes.png
+2026-09-21 08:29:03 | INFO | income_report | Saved gender trend plot to: output\figures\gender_income_over_time.png
+2026-09-21 08:29:03 | INFO | income_report | Saved gender gap percentage line plot to: output\figures\gender_gap_percentage.png
+2026-09-21 08:29:03 | INFO | income_report | Saved age profile bar plot to: output\figures\age_income_profile_bar.png
+2026-09-21 08:29:04 | INFO | income_report | Saved age profile line plot to: output\figures\age_income_profile_line.png
+2026-09-21 08:29:04 | INFO | income_report | All visualization plots generated successfully
+2026-09-21 14:51:46 | INFO | income_report | Starting processing pipeline execution...
+2026-09-21 14:51:46 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_income_raw.csv
+2026-09-21 14:51:46 | INFO | income_report | Successfully loaded raw data. Shape: (30, 20) (rows, columns)
+2026-09-21 14:51:46 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-21 14:51:46 | INFO | income_report | Pipeline completed. Output shape: (450, 5)
+2026-09-21 14:51:46 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-21 14:51:46 | INFO | income_report | Calculated average income over time per gender
+2026-09-21 14:51:46 | INFO | income_report | Successfully calculated gender income gap percentage
+2026-09-21 14:51:46 | INFO | income_report | Calculated age-income profile
+2026-09-21 14:51:46 | INFO | income_report | Calculated average income over time per education level
+2026-09-21 14:51:46 | INFO | income_report | Saved processed data to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-21 14:51:46 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\yearly_income_extremes.csv
+2026-09-21 14:51:46 | INFO | income_report | Saved gender gap table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\gender_gap_summary.csv
+2026-09-21 14:51:46 | INFO | income_report | Processing pipeline executed successfully
+2026-09-21 14:51:46 | INFO | income_report | Starting visualization process...
+2026-09-21 14:51:46 | INFO | income_report | Starting processing pipeline execution...
+2026-09-21 14:51:46 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_income_raw.csv
+2026-09-21 14:51:46 | INFO | income_report | Successfully loaded raw data. Shape: (30, 20) (rows, columns)
+2026-09-21 14:51:46 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-21 14:51:46 | INFO | income_report | Pipeline completed. Output shape: (450, 5)
+2026-09-21 14:51:46 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-21 14:51:46 | INFO | income_report | Calculated average income over time per gender
+2026-09-21 14:51:46 | INFO | income_report | Successfully calculated gender income gap percentage
+2026-09-21 14:51:46 | INFO | income_report | Calculated age-income profile
+2026-09-21 14:51:46 | INFO | income_report | Calculated average income over time per education level
+2026-09-21 14:51:46 | INFO | income_report | Saved processed data to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-21 14:51:46 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\yearly_income_extremes.csv
+2026-09-21 14:51:46 | INFO | income_report | Saved gender gap table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\gender_gap_summary.csv
+2026-09-21 14:51:46 | INFO | income_report | Processing pipeline executed successfully
+2026-09-21 14:51:48 | INFO | income_report | Saved education trend plot to: output\figures\education_income_over_time.png
+2026-09-21 14:51:48 | INFO | income_report | Saved yearly extremes plot to: output\figures\yearly_income_extremes.png
+2026-09-21 14:51:49 | INFO | income_report | Saved gender trend plot to: output\figures\gender_income_over_time.png
+2026-09-21 14:51:49 | INFO | income_report | Saved gender gap percentage line plot to: output\figures\gender_gap_percentage.png
+2026-09-21 14:51:49 | INFO | income_report | Saved age profile bar plot to: output\figures\age_income_profile_bar.png
+2026-09-21 14:51:50 | INFO | income_report | Saved age profile line plot to: output\figures\age_income_profile_line.png
+2026-09-21 14:51:50 | INFO | income_report | All visualization plots generated successfully
+2026-09-21 14:51:50 | INFO | income_report | Starting full reporting pipeline execution...
+2026-09-21 14:51:50 | INFO | income_report | Starting visualization process...
+2026-09-21 14:51:50 | INFO | income_report | Starting processing pipeline execution...
+2026-09-21 14:51:50 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_income_raw.csv
+2026-09-21 14:51:50 | INFO | income_report | Successfully loaded raw data. Shape: (30, 20) (rows, columns)
+2026-09-21 14:51:50 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-21 14:51:50 | INFO | income_report | Pipeline completed. Output shape: (450, 5)
+2026-09-21 14:51:50 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-21 14:51:50 | INFO | income_report | Calculated average income over time per gender
+2026-09-21 14:51:50 | INFO | income_report | Successfully calculated gender income gap percentage
+2026-09-21 14:51:50 | INFO | income_report | Calculated age-income profile
+2026-09-21 14:51:50 | INFO | income_report | Calculated average income over time per education level
+2026-09-21 14:51:50 | INFO | income_report | Saved processed data to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-21 14:51:50 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\yearly_income_extremes.csv
+2026-09-21 14:51:50 | INFO | income_report | Saved gender gap table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\gender_gap_summary.csv
+2026-09-21 14:51:50 | INFO | income_report | Processing pipeline executed successfully
+2026-09-21 14:51:50 | INFO | income_report | Saved education trend plot to: output\figures\education_income_over_time.png
+2026-09-21 14:51:51 | INFO | income_report | Saved yearly extremes plot to: output\figures\yearly_income_extremes.png
+2026-09-21 14:51:51 | INFO | income_report | Saved gender trend plot to: output\figures\gender_income_over_time.png
+2026-09-21 14:51:52 | INFO | income_report | Saved gender gap percentage line plot to: output\figures\gender_gap_percentage.png
+2026-09-21 14:51:52 | INFO | income_report | Saved age profile bar plot to: output\figures\age_income_profile_bar.png
+2026-09-21 14:51:52 | INFO | income_report | Saved age profile line plot to: output\figures\age_income_profile_line.png
+2026-09-21 14:51:52 | INFO | income_report | All visualization plots generated successfully
+2026-09-21 14:51:52 | INFO | income_report | Rendering Quarto report (report.qmd) to PDF...
+2026-09-21 14:51:54 | ERROR | income_report | Failed to render Quarto report: Command '['quarto', 'render', 'report.qmd', '--to', 'pdf']' returned non-zero exit status 1.
+2026-09-21 15:00:54 | INFO | income_report | Starting full reporting pipeline execution...
+2026-09-21 15:00:54 | INFO | income_report | Starting visualization process...
+2026-09-21 15:00:54 | INFO | income_report | Starting processing pipeline execution...
+2026-09-21 15:00:54 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_income_raw.csv
+2026-09-21 15:00:54 | INFO | income_report | Successfully loaded raw data. Shape: (30, 20) (rows, columns)
+2026-09-21 15:00:54 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-21 15:00:54 | INFO | income_report | Pipeline completed. Output shape: (450, 5)
+2026-09-21 15:00:54 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-21 15:00:54 | INFO | income_report | Calculated average income over time per gender
+2026-09-21 15:00:54 | INFO | income_report | Successfully calculated gender income gap percentage
+2026-09-21 15:00:54 | INFO | income_report | Calculated age-income profile
+2026-09-21 15:00:54 | INFO | income_report | Calculated average income over time per education level
+2026-09-21 15:00:54 | INFO | income_report | Saved processed data to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-21 15:00:54 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\yearly_income_extremes.csv
+2026-09-21 15:00:54 | INFO | income_report | Saved gender gap table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\gender_gap_summary.csv
+2026-09-21 15:00:54 | INFO | income_report | Processing pipeline executed successfully
+2026-09-21 15:00:54 | INFO | income_report | Saved education trend plot to: output\figures\education_income_over_time.png
+2026-09-21 15:00:55 | INFO | income_report | Saved yearly extremes plot to: output\figures\yearly_income_extremes.png
+2026-09-21 15:00:55 | INFO | income_report | Saved gender trend plot to: output\figures\gender_income_over_time.png
+2026-09-21 15:00:55 | INFO | income_report | Saved gender gap percentage line plot to: output\figures\gender_gap_percentage.png
+2026-09-21 15:00:56 | INFO | income_report | Saved age profile bar plot to: output\figures\age_income_profile_bar.png
+2026-09-21 15:00:56 | INFO | income_report | Saved age profile line plot to: output\figures\age_income_profile_line.png
+2026-09-21 15:00:56 | INFO | income_report | All visualization plots generated successfully
+2026-09-21 15:00:56 | INFO | income_report | Rendering Quarto report (report.qmd) to PDF...
+2026-09-21 15:00:57 | ERROR | income_report | Failed to render Quarto report: Command '['quarto', 'render', 'report.qmd', '--to', 'pdf']' returned non-zero exit status 1.
+2026-09-21 15:01:52 | INFO | income_report | Starting full reporting pipeline execution...
+2026-09-21 15:01:52 | INFO | income_report | Starting visualization process...
+2026-09-21 15:01:52 | INFO | income_report | Starting processing pipeline execution...
+2026-09-21 15:01:52 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\raw\scb_income_raw.csv
+2026-09-21 15:01:52 | INFO | income_report | Successfully loaded raw data. Shape: (30, 20) (rows, columns)
+2026-09-21 15:01:52 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-21 15:01:52 | INFO | income_report | Pipeline completed. Output shape: (450, 5)
+2026-09-21 15:01:52 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-21 15:01:52 | INFO | income_report | Calculated average income over time per gender
+2026-09-21 15:01:52 | INFO | income_report | Successfully calculated gender income gap percentage
+2026-09-21 15:01:52 | INFO | income_report | Calculated age-income profile
+2026-09-21 15:01:52 | INFO | income_report | Calculated average income over time per education level
+2026-09-21 15:01:52 | INFO | income_report | Saved processed data to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-21 15:01:52 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\yearly_income_extremes.csv
+2026-09-21 15:01:52 | INFO | income_report | Saved gender gap table to: C:\Users\veras\Desktop\Data Scientist\fördjupning_egen_uppgift\data\processed\gender_gap_summary.csv
+2026-09-21 15:01:52 | INFO | income_report | Processing pipeline executed successfully
+2026-09-21 15:01:52 | INFO | income_report | Saved education trend plot to: output\figures\education_income_over_time.png
+2026-09-21 15:01:53 | INFO | income_report | Saved yearly extremes plot to: output\figures\yearly_income_extremes.png
+2026-09-21 15:01:53 | INFO | income_report | Saved gender trend plot to: output\figures\gender_income_over_time.png
+2026-09-21 15:01:54 | INFO | income_report | Saved gender gap percentage line plot to: output\figures\gender_gap_percentage.png
+2026-09-21 15:01:54 | INFO | income_report | Saved age profile bar plot to: output\figures\age_income_profile_bar.png
+2026-09-21 15:01:54 | INFO | income_report | Saved age profile line plot to: output\figures\age_income_profile_line.png
+2026-09-21 15:01:54 | INFO | income_report | All visualization plots generated successfully
+2026-09-21 15:01:54 | INFO | income_report | Rendering Quarto report (report.qmd) to PDF...
+2026-09-21 15:01:56 | ERROR | income_report | Failed to render Quarto report: Command '['quarto', 'render', 'report.qmd', '--to', 'pdf']' returned non-zero exit status 1.
+2026-09-21 15:12:42 | INFO | income_report | Starting processing pipeline execution...
+2026-09-21 15:12:42 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fordjupning_egen_uppgift\data\raw\scb_income_raw.csv
+2026-09-21 15:12:42 | INFO | income_report | Successfully loaded raw data. Shape: (30, 20) (rows, columns)
+2026-09-21 15:12:42 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-21 15:12:43 | INFO | income_report | Pipeline completed. Output shape: (450, 5)
+2026-09-21 15:12:43 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-21 15:12:43 | INFO | income_report | Calculated average income over time per gender
+2026-09-21 15:12:43 | INFO | income_report | Successfully calculated gender income gap percentage
+2026-09-21 15:12:43 | INFO | income_report | Calculated age-income profile
+2026-09-21 15:12:43 | INFO | income_report | Calculated average income over time per education level
+2026-09-21 15:12:43 | INFO | income_report | Saved processed data to: C:\Users\veras\Desktop\Data Scientist\fordjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-21 15:12:43 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\Desktop\Data Scientist\fordjupning_egen_uppgift\data\processed\yearly_income_extremes.csv
+2026-09-21 15:12:43 | INFO | income_report | Saved gender gap table to: C:\Users\veras\Desktop\Data Scientist\fordjupning_egen_uppgift\data\processed\gender_gap_summary.csv
+2026-09-21 15:12:43 | INFO | income_report | Processing pipeline executed successfully
+2026-09-21 15:12:43 | INFO | income_report | Starting visualization process...
+2026-09-21 15:12:43 | INFO | income_report | Starting processing pipeline execution...
+2026-09-21 15:12:43 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fordjupning_egen_uppgift\data\raw\scb_income_raw.csv
+2026-09-21 15:12:43 | INFO | income_report | Successfully loaded raw data. Shape: (30, 20) (rows, columns)
+2026-09-21 15:12:43 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-21 15:12:43 | INFO | income_report | Pipeline completed. Output shape: (450, 5)
+2026-09-21 15:12:43 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-21 15:12:43 | INFO | income_report | Calculated average income over time per gender
+2026-09-21 15:12:43 | INFO | income_report | Successfully calculated gender income gap percentage
+2026-09-21 15:12:43 | INFO | income_report | Calculated age-income profile
+2026-09-21 15:12:43 | INFO | income_report | Calculated average income over time per education level
+2026-09-21 15:12:43 | INFO | income_report | Saved processed data to: C:\Users\veras\Desktop\Data Scientist\fordjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-21 15:12:43 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\Desktop\Data Scientist\fordjupning_egen_uppgift\data\processed\yearly_income_extremes.csv
+2026-09-21 15:12:43 | INFO | income_report | Saved gender gap table to: C:\Users\veras\Desktop\Data Scientist\fordjupning_egen_uppgift\data\processed\gender_gap_summary.csv
+2026-09-21 15:12:43 | INFO | income_report | Processing pipeline executed successfully
+2026-09-21 15:12:43 | INFO | income_report | Saved education trend plot to: output\figures\education_income_over_time.png
+2026-09-21 15:12:44 | INFO | income_report | Saved yearly extremes plot to: output\figures\yearly_income_extremes.png
+2026-09-21 15:12:44 | INFO | income_report | Saved gender trend plot to: output\figures\gender_income_over_time.png
+2026-09-21 15:12:45 | INFO | income_report | Saved gender gap percentage line plot to: output\figures\gender_gap_percentage.png
+2026-09-21 15:12:45 | INFO | income_report | Saved age profile bar plot to: output\figures\age_income_profile_bar.png
+2026-09-21 15:12:45 | INFO | income_report | Saved age profile line plot to: output\figures\age_income_profile_line.png
+2026-09-21 15:12:45 | INFO | income_report | All visualization plots generated successfully
+2026-09-21 15:12:45 | INFO | income_report | Starting full reporting pipeline execution...
+2026-09-21 15:12:45 | INFO | income_report | Starting visualization process...
+2026-09-21 15:12:45 | INFO | income_report | Starting processing pipeline execution...
+2026-09-21 15:12:45 | INFO | income_report | Loading raw data from: C:\Users\veras\Desktop\Data Scientist\fordjupning_egen_uppgift\data\raw\scb_income_raw.csv
+2026-09-21 15:12:45 | INFO | income_report | Successfully loaded raw data. Shape: (30, 20) (rows, columns)
+2026-09-21 15:12:45 | INFO | income_report | Starting validation anv sanitization pipeline...
+2026-09-21 15:12:45 | INFO | income_report | Pipeline completed. Output shape: (450, 5)
+2026-09-21 15:12:45 | INFO | income_report | Successfully calculated yearly income extremes
+2026-09-21 15:12:45 | INFO | income_report | Calculated average income over time per gender
+2026-09-21 15:12:45 | INFO | income_report | Successfully calculated gender income gap percentage
+2026-09-21 15:12:45 | INFO | income_report | Calculated age-income profile
+2026-09-21 15:12:45 | INFO | income_report | Calculated average income over time per education level
+2026-09-21 15:12:45 | INFO | income_report | Saved processed data to: C:\Users\veras\Desktop\Data Scientist\fordjupning_egen_uppgift\data\processed\scb_income_cleaned.csv
+2026-09-21 15:12:45 | INFO | income_report | Saved yearly extremes table to: C:\Users\veras\Desktop\Data Scientist\fordjupning_egen_uppgift\data\processed\yearly_income_extremes.csv
+2026-09-21 15:12:45 | INFO | income_report | Saved gender gap table to: C:\Users\veras\Desktop\Data Scientist\fordjupning_egen_uppgift\data\processed\gender_gap_summary.csv
+2026-09-21 15:12:45 | INFO | income_report | Processing pipeline executed successfully
+2026-09-21 15:12:46 | INFO | income_report | Saved education trend plot to: output\figures\education_income_over_time.png
+2026-09-21 15:12:46 | INFO | income_report | Saved yearly extremes plot to: output\figures\yearly_income_extremes.png
+2026-09-21 15:12:46 | INFO | income_report | Saved gender trend plot to: output\figures\gender_income_over_time.png
+2026-09-21 15:12:47 | INFO | income_report | Saved gender gap percentage line plot to: output\figures\gender_gap_percentage.png
+2026-09-21 15:12:47 | INFO | income_report | Saved age profile bar plot to: output\figures\age_income_profile_bar.png
+2026-09-21 15:12:47 | INFO | income_report | Saved age profile line plot to: output\figures\age_income_profile_line.png
+2026-09-21 15:12:47 | INFO | income_report | All visualization plots generated successfully
+2026-09-21 15:12:47 | INFO | income_report | Rendering Quarto report (report.qmd) to PDF...
+2026-09-21 15:13:36 | INFO | income_report | Quarto report rendered successfully!

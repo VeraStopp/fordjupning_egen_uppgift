@@ -13,3 +13,5 @@ src/income_report.egg-info/SOURCES.txt
 src/income_report.egg-info/dependency_links.txt
 src/income_report.egg-info/requires.txt
 src/income_report.egg-info/top_level.txt
+tests/test_processing.py
+tests/test_validation.py
