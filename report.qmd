@@ -103,7 +103,7 @@ low_increase_pct = float(round((low_increase / first_low["inkomst_tkr"]) * 100, 
 
 # Introduktion
 
-Denna rapport sammanställer och analyserar inkomstdata från Statistiska centralbyrån (SCB). Syftet är att undersäka hur medelinkomsten varierar beroende på faktorer som utbildningsnivå, kön och ålder, samt hur dessa realtioner har förändrats över tid.
+Denna rapport sammanställer och analyserar inkomstdata från Statistiska centralbyrån (SCB). Syftet är att undersöka hur medelinkomsten varierar beroende på faktorer som utbildningsnivå, kön och ålder samt hur dessa realtioner har förändrats över tid. Datan sträcker sig från `{python} first_year` och `{python} latest_year`.
 
 Data har genomgått en automatiserad validerings- och bearbetningspipeline där saknade värden har rensats och datatypstransformationer genomförts innan aggregering.
 
